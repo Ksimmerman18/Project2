@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>250</height>
+    <height>300</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>300</width>
-    <height>250</height>
+    <height>300</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>300</width>
-    <height>250</height>
+    <height>300</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -44,7 +44,7 @@
      <string>Student name:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Student_line_edit">
+   <widget class="QLineEdit" name="student_line_edit">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -209,9 +209,9 @@
    <widget class="QPushButton" name="submit_button">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>10</x>
       <y>185</y>
-      <width>200</width>
+      <width>140</width>
       <height>25</height>
      </rect>
     </property>
@@ -222,6 +222,85 @@
     </property>
     <property name="text">
      <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_attempts_submit">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>38</y>
+      <width>30</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>5</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_edit_attempts_error">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>68</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 0, 0);</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>185</y>
+      <width>140</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score_input_error_lable">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>280</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
